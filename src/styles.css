@@ -1,0 +1,57 @@
+/*Estilos generales*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ece0f7;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+/* Estilos para el contenedor principal */
+#app {
+    background-color: rgb(240, 161, 223);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Estilos para el formilario*/
+form {
+    display: flex;
+    justify-content: space-between;
+}
+/* Estilos para el input */
+input{
+    width: 75%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+/*Estilos para el botón */
+button {
+    padding: 5px 8px;
+    background-color: rgb(179, 81, 199);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*Estilos de la lista */
+li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Estilo para cuando la tarea se completa*/
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
